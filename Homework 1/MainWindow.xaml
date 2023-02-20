@@ -1,0 +1,47 @@
+﻿<Window x:Class="Homework_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20" Orientation="Horizontal">
+
+            <Button
+                Name="RedBtn"
+                Click="RedBtn_Click" 
+                Width="250"
+                Content="Red"
+                FontSize="20"
+                FontFamily="Comic Sans MS"
+                Background="Red"
+                >
+            </Button>
+
+            <Button
+                Name="YellowBtn"
+                Click="RedBtn_Click" 
+                Width="250"
+                Content="Yellow"
+                FontSize="20"
+                FontFamily="Comic Sans MS"
+                Background="Yellow"
+                >
+            </Button>
+
+            <Button
+                Name="GreenBtn"
+                Click="RedBtn_Click" 
+                Width="250"
+                Content="Green"
+                FontSize="20"
+                FontFamily="Comic Sans MS"
+                Background="Green"
+                >
+            </Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>
